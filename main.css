@@ -1,0 +1,105 @@
+/* General Reset */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Light grey background */
+    color: #333; /* Dark grey text */
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #6a1b9a; /* Deep purple */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .header-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+header nav ul li a {
+    color: #ffffff; /* White text */
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #8e24aa; /* Lighter purple for hover */
+}
+
+header p {
+    margin: 10px 0;
+}
+
+header .button {
+    display: inline-block;
+    background-color: #8e24aa; /* Lighter purple */
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+header .button:hover {
+    background-color: #ba68c8; /* Even lighter purple on hover */
+}
+
+/* Section Styling */
+.content {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.content h2 {
+    color: #6a1b9a; /* Deep purple */
+    margin-bottom: 10px;
+}
+
+.content p {
+    color: #555; /* Medium grey for paragraph text */
+    margin-bottom: 15px;
+}
+
+.content .button {
+    background-color: #6a1b9a; /* Deep purple */
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.content .button:hover {
+    background-color: #8e24aa; /* Lighter purple on hover */
+}
+
+/* Strong Text */

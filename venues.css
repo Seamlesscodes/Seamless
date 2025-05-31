@@ -1,0 +1,108 @@
+/* General Reset */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Light grey */
+    color: #333; /* Dark grey text */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #6a1b9a; /* Deep purple */
+    color: #ffffff; /* White text */
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .header-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+header nav ul li a {
+    color: #ffffff; /* White text */
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #8e24aa; /* Lighter purple on hover */
+}
+
+/* Main Section Styling */
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+/* Venue Info Section */
+.venue-info, .accommodation-info {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.venue-info h2, .accommodation-info h2 {
+    color: #6a1b9a; /* Deep purple */
+    margin-bottom: 15px;
+}
+
+.venue-info p, .accommodation-info p {
+    color: #555; /* Medium grey */
+    margin-bottom: 10px;
+}
+
+.venue-info a, .accommodation-info a {
+    color: #6a1b9a; /* Deep purple */
+    font-weight: bold;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.venue-info a:hover, .accommodation-info a:hover {
+    color: #8e24aa; /* Lighter purple */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #6a1b9a; /* Deep purple */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header .header-content h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
